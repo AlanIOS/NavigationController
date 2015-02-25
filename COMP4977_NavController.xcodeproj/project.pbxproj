@@ -13,6 +13,8 @@
 		E73488281A8C40CA0010F91D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E73488271A8C40CA0010F91D /* Images.xcassets */; };
 		E734882B1A8C40CA0010F91D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E73488291A8C40CA0010F91D /* LaunchScreen.xib */; };
 		E73488371A8C40CA0010F91D /* COMP4977_NavControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73488361A8C40CA0010F91D /* COMP4977_NavControllerTests.swift */; };
+		E73488431A8C5FAF0010F91D /* TVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73488421A8C5FAF0010F91D /* TVController.swift */; };
+		E73736111A95ED30006FCD8B /* ThirdController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73736101A95ED30006FCD8B /* ThirdController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		E73488301A8C40CA0010F91D /* COMP4977_NavControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = COMP4977_NavControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E73488351A8C40CA0010F91D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E73488361A8C40CA0010F91D /* COMP4977_NavControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COMP4977_NavControllerTests.swift; sourceTree = "<group>"; };
+		E73488421A8C5FAF0010F91D /* TVController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVController.swift; sourceTree = "<group>"; };
+		E73736101A95ED30006FCD8B /* ThirdController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 				E73488271A8C40CA0010F91D /* Images.xcassets */,
 				E73488291A8C40CA0010F91D /* LaunchScreen.xib */,
 				E734881E1A8C40CA0010F91D /* Supporting Files */,
+				E73488421A8C5FAF0010F91D /* TVController.swift */,
+				E73736101A95ED30006FCD8B /* ThirdController.swift */,
 			);
 			path = COMP4977_NavController;
 			sourceTree = "<group>";
@@ -161,6 +167,7 @@
 				TargetAttributes = {
 					E734881A1A8C40CA0010F91D = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = L9GR6R2227;
 					};
 					E734882F1A8C40CA0010F91D = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -212,8 +219,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E73488431A8C5FAF0010F91D /* TVController.swift in Sources */,
 				E73488231A8C40CA0010F91D /* ViewController.swift in Sources */,
 				E73488211A8C40CA0010F91D /* AppDelegate.swift in Sources */,
+				E73736111A95ED30006FCD8B /* ThirdController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,7 +345,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = COMP4977_NavController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -346,7 +357,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = COMP4977_NavController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -405,6 +418,7 @@
 				E734883C1A8C40CA0010F91D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E734883D1A8C40CA0010F91D /* Build configuration list for PBXNativeTarget "COMP4977_NavControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +427,7 @@
 				E734883F1A8C40CA0010F91D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
